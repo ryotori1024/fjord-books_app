@@ -1,0 +1,23 @@
+ja:
+  books: 本の一覧
+  title: タイトル
+  memo: メモ
+  author: 著者
+  picture: 画像
+  editingbook: 本を編集する
+  newbook: 新しい本を追加する
+
+  button:
+    show: "詳細"
+    edit: "編集"
+    destroy: "削除"
+    new_book: "新規追加"
+    back: "戻る"
+
+  activerecord:
+    attributes:
+      book:
+        title: タイトル
+        memo: メモ
+        author: 著者
+        picture: 画像  
