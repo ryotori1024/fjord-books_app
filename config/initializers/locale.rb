@@ -2,4 +2,4 @@
 I18n.available_locales = %i[en ja]
 
 # デフォルトの言語を指定します
-I18n.default_locale = :en
+I18n.default_locale = :ja

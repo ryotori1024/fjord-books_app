@@ -20,4 +20,16 @@ ja:
         title: タイトル
         memo: メモ
         author: 著者
-        picture: 画像  
+        picture: 画像
+
+  helpers:
+    select:
+      prompt: 選択してください
+    submit:
+      create: 登録する
+      submit: 保存する
+      update: 更新する
+  notice:
+    create: "本が作成されました。"
+    update: "本が更新されました。"
+    destroy: "本が削除されました。"

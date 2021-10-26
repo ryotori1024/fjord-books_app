@@ -56,3 +56,16 @@ en:
         memo: Memo
         author: Author
         picture: Picture
+
+  helpers:
+    select:
+      prompt: Please select
+    submit:
+      create: Create %{model}
+      submit: Save %{model}
+      update: Update %{model}
+
+  notice:
+    create: "Book was successfully created."
+    update: "Book was successfully updated."
+    destroy: "Book was successfully destroyed."
