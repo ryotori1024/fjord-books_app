@@ -15,6 +15,8 @@ ja:
     back: "戻る"
 
   activerecord:
+    models:
+      book: 本
     attributes:
       book:
         title: タイトル
@@ -30,6 +32,6 @@ ja:
       submit: 保存する
       update: 更新する
   notice:
-    create: "本が作成されました。"
-    update: "本が更新されました。"
-    destroy: "本が削除されました。"
+    create: "%{model}が作成されました。"
+    update: "%{model}が更新されました。"
+    destroy: "%{model}が削除されました。"
