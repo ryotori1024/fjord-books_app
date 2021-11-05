@@ -2,9 +2,10 @@
 
 <p>ようこそ、<%= current_user.name %>さん</p>
 
-  <% @users.each do |user| %>
-    <p><%= link_to user.name, user %></p><br>
-  <% end %>
+<% @users.each do |user| %>
+  <p><%= link_to user.name, user %></p><br>
+<% end %>
 
+<%= paginate @users %>
 <%= link_to 'ユーザー情報編集', edit_user_registration_path %><br>
 <%= link_to '戻る', home_index_path %>

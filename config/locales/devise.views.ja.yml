@@ -141,3 +141,7 @@ ja:
       not_saved:
         one: エラーが発生したため %{resource} は保存されませんでした。
         other: "%{count} 件のエラーが発生したため %{resource} は保存されませんでした。"
+  postal_code: 郵便番号
+  address: 住所
+  name: ユーザー名
+  self_introduction: 自己紹介文
