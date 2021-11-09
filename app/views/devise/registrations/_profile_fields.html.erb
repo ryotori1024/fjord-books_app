@@ -1,4 +1,12 @@
 <div class="field">
+  <%= f.label :image %>
+  <% if @user.image.attached? %>
+    <%= image_tag @user.image, class: "image" %><br>
+  <% end %>
+  <%= f.file_field :image %>
+</div>
+
+<div class="field">
   <%= f.label :name %>
   <%= f.text_field :name %>
 </div>
