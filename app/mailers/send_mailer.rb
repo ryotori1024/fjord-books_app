@@ -1,2 +1,0 @@
-class SendMailer < ApplicationMailer
-end
